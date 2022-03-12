@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/vau1i/CLionProjects/OOP_PR4/OOP_PR4.cpp">
+			<Option target="OOP_PR4"/>
+		</Unit>
+		<Unit filename="C:/Users/vau1i/CLionProjects/OOP_PR4/OOP_PR4.h">
+			<Option target="OOP_PR4"/>
+		</Unit>
 		<Unit filename="C:/Users/vau1i/CLionProjects/OOP_PR4/main.cpp">
 			<Option target="OOP_PR4"/>
 		</Unit>

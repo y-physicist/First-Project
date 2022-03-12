@@ -3,4 +3,4 @@ project(OOP_PR4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OOP_PR4 main.cpp)
+add_executable(OOP_PR4 main.cpp OOP_PR4.h OOP_PR4.cpp)

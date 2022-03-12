@@ -128,6 +128,30 @@ OOP_PR4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_PR4.dir\build.make CMakeFiles/OOP_PR4.dir/build
 .PHONY : OOP_PR4/fast
 
+OOP_PR4.obj: OOP_PR4.cpp.obj
+.PHONY : OOP_PR4.obj
+
+# target to build an object file
+OOP_PR4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_PR4.dir\build.make CMakeFiles/OOP_PR4.dir/OOP_PR4.cpp.obj
+.PHONY : OOP_PR4.cpp.obj
+
+OOP_PR4.i: OOP_PR4.cpp.i
+.PHONY : OOP_PR4.i
+
+# target to preprocess a source file
+OOP_PR4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_PR4.dir\build.make CMakeFiles/OOP_PR4.dir/OOP_PR4.cpp.i
+.PHONY : OOP_PR4.cpp.i
+
+OOP_PR4.s: OOP_PR4.cpp.s
+.PHONY : OOP_PR4.s
+
+# target to generate assembly for a file
+OOP_PR4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_PR4.dir\build.make CMakeFiles/OOP_PR4.dir/OOP_PR4.cpp.s
+.PHONY : OOP_PR4.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_PR4
+	@echo ... OOP_PR4.obj
+	@echo ... OOP_PR4.i
+	@echo ... OOP_PR4.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

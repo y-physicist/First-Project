@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/OOP_PR4.dir/OOP_PR4.cpp.obj"
   "CMakeFiles/OOP_PR4.dir/main.cpp.obj"
   "OOP_PR4.exe"
   "OOP_PR4.exe.manifest"
